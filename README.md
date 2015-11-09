@@ -22,3 +22,11 @@ Configuration sample:
     ]
 
 ```
+
+If you do not know the IP address of your Hue Bridge, simply leave it blank and your Bridge
+will be discovered automatically.
+
+If you do not have a "username" for your Hue API already, simply leave the field blank and
+you will be prompted to press the link button on your Hue Bridge before running HomeBridge.
+A username will be created for you and printed out, then the server will exit so you may
+enter it in your config.json.
