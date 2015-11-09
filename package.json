@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-philipshue",
+  "version": "0.0.1",
+  "description": "Hue plugin for homebridge: https://github.com/nfarina/homebridge",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thkl/homebridge-philipshue.git"
+  },
+
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  },
+
+  "dependencies": {
+    "request": "^2.65.0",
+    "node-hue-api": "^1.0.5"
+  }
+}
